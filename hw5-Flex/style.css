@@ -1,0 +1,523 @@
+body {
+    width: 1920px;
+    font: 16px 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+    background-color: white;
+    border: 1px dashed yellowgreen;
+    color: #999999;
+}
+
+* {
+    margin: 0;
+}
+
+h2 {
+    font-weight: bold;
+    /*font-weight: 700;*/
+    font-size: 36px;
+    line-height: 53px;
+    color: #323232;
+}
+
+p>h2 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.first-screen {
+    background-image: url(images/first-screen.jpg);
+    background-size: cover;
+    background-position: top -70px right 0px;
+    /*как образеть девушку слева и нижнему парню добавить руку, не обрезав голову тому, что сверху?*/
+    height: 900px;
+
+}
+
+.first-screen__menu {
+    height: 59px;
+    margin-right: 405px;
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-between;
+}
+
+.first-screen__menu>* {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 40px 20px;
+}
+
+.first-screen__link {
+    height: 20px;
+    padding-bottom: 37px;
+}
+
+
+.first-screen__link:hover {
+    border-bottom-color: #FFFFFF;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+
+.first-screen__line {
+    margin-top: 40px;
+    opacity: 0.5;
+    border: 0.5px solid #A1A1A1;
+}
+
+.welcome {
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: 319px;
+    margin-left: 545px;
+    width: 829px;
+    text-align: center;
+}
+
+.welcome h1 {
+    font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: 800;
+    /*выше и ниже - начертание (жирность) и расстояние между строками*/
+    line-height: 64px;
+}
+
+.welcome a {
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #4985FF;
+    width: 200px;
+    padding: 14px 36px;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+}
+
+.article {
+    margin: 110px 402px 0 405px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.article__header {
+    width: 739px;
+    height: 88px;
+    margin: 0 auto 50px auto;
+}
+
+.article__text {
+    margin: auto;
+    width: 730px;
+}
+
+.card {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 139px;
+}
+
+.card__img {
+    width: 110px;
+    height: 110px;
+}
+
+.card__content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    text-align: start;
+}
+
+.card__header {
+    margin-bottom: 12px;
+    margin-left: 17px;
+}
+
+.card__text {
+    margin-left: 17px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.article__button {
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #4985FF;
+    width: 200px;
+    padding: 14px 0;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    margin: 55px auto 105px;
+}
+
+.about {
+    height: 797px;
+    background: #F6F6F8;
+}
+
+.standarts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*align-items: flex-start;*/
+    margin: 0px 405px 0px;
+    padding: 100px 0 0 0;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.standarts__content {
+    margin-top: 52px;
+}
+
+.standarts__header {
+    width: 424px;
+    margin-bottom: 40px;
+}
+
+
+.standarts__text {
+    width: 489px;
+    margin-bottom: 30px;
+}
+
+.standarts__link {
+    color: #4985FF;
+}
+
+.standarts__image {
+    width: 500px;
+    height: 400px;
+    background: #F6F6F8;
+    /*box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;*/
+    margin-bottom: 90px;
+}
+
+.about__numbers {
+    margin: 70px 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.numbers__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.numbers__quantity {
+    font-size: 36px;
+    line-height: 53px;
+    margin: 0px 0 0px 20px;
+    color: #000000;
+}
+
+.servises {
+    height: 972px;
+}
+
+.servises__content {
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+    height: 390px;
+    padding: 100px 405px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    /*align-content: space-around;
+    position: relative;*/
+    z-index: 1;
+}
+
+.servises__header {
+    color: #FFFFFF;
+    width: 540px;
+}
+
+.servises__button {
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #4985FF;
+    width: 200px;
+    padding: 14px 0;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    text-align: center;
+    margin: 20px 0 0;
+}
+
+.servises__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* как гуманно сделать, чтобы растягивало пробелы между элементами?*/
+    margin-top: -232px;
+    margin-left: 390px;
+    margin-right: 390px;
+    position: absolute;
+    z-index: 2;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 350px;
+    margin: 0 15px;
+}
+
+.item_img {
+    background: #C4C4C4;
+    border-radius: 10px;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.item_header {
+    margin: 30px 0;
+}
+
+.item_link {
+    color: #4985FF;
+    margin-top: 30px;
+    margin-bottom: 85px;
+}
+
+.project {
+    background-color: #F6F6F8;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start;
+    align-content: space-around;*/
+}
+
+.project__header {
+    padding: 100px 0 50px;
+    height: 35px;
+}
+
+.project__text {
+    width: 730px;
+    margin: 0 auto 70px;
+}
+
+.project__images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 405px;
+}
+
+.project__image {
+    width: 255px;
+}
+
+.project__button {
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #4985FF;
+    width: 200px;
+    padding: 14px 0;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    margin: 50px auto 130px;
+}
+
+/*.video {
+   height: 735px;
+    position: relative;
+    z-index: 1;
+}*/
+
+.video__background {
+    position: absolute;
+    width: 1920px;
+    height: 570px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url(/Homework/hw5-Flex_F1/211014/images/first-screen.jpg);
+    background-size: cover;
+    background-position: center;
+    /*background-repeat: no-repeat;
+    z-index: 2;*/
+}
+
+.video__content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #FFFFFF;
+    width: 1110px;
+    height: 735px;
+    margin: auto;
+    /*z-index: 3;*/
+}
+
+.video__header {
+    color: #FFFFFF;
+    margin: 70px auto 30px;
+    height: 35px;
+}
+
+
+.video__text {
+    margin-bottom: 70px;
+    height: 15px;
+}
+
+.video__youtube {
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 10px;
+    /*
+    background-image: url(/Homework/hw5-Flex_F1/211014/images/video.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 970px;
+    height: 430px;
+    margin: 0px auto;
+    position: relative;
+    z-index: 4;*/
+}
+
+.video__button {
+    width: 300px;
+    height: 100px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 200px;
+    position: absolute;
+    margin-top: 385px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    /*z-index: 10;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscribe {
+    height: 347px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1110px;
+    margin: auto;
+    border-top: 1px solid #E0E0E0;
+}
+
+.subscribe__header {
+    margin-top: 85px;
+    /*font-size: 18px; line-height: 22px; у h3, но высота элемента 17px. Почему?*/
+}
+
+.subscribe__text {
+    margin: 20px auto 30px;
+}
+
+.subscribe__form {
+    width: 489px;
+    height: 45px;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #FFFFFF;
+    margin: 14px 35px;
+}
+
+.subscribe__email {
+    border-radius: 30px 0px 0px 30px;
+    width: 489px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    text-align: center;
+}
+
+.subscribe__button {
+    width: 190px;
+    height: 45px;
+    background: #4985FF;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 0px 30px 30px 0px;
+    color: #FFFFFF;
+}
+
+.footer {
+    height: 413px;
+    background-color: #F6F6F8;
+    /*text-align: left;*/
+}
+
+.footer__data {
+    margin: 0 405px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer__header {
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: #999999;
+    font-size: 14px;
+    /*font-weight: normal;
+     line-height: 22px;*/
+    margin-bottom: 30px;
+}
+
+.footer__copyright {
+    font-size: 13px;
+    /*line-height: 21px;*/
+    text-align: center;
+    color: #999999;
+    margin: 30px auto;
+}
