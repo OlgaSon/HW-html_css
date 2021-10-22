@@ -1,0 +1,38 @@
+header {
+    width: 90%;
+    height: 15%;
+    margin: auto;
+    background-color: rgb(127, 255, 212);
+    border: 1px solid rgb(52, 170, 131);
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+}
+
+nav {
+    height: 600px;
+    width: 10%;
+    position: fixed;
+    bottom: 20%;
+    top: 20%;
+    background-color: rgba(127, 255, 212, 0.5);
+    text-align: center;
+}
+
+main {
+    margin-left: 10%;
+    background-color: rgb(127, 255, 212);
+    text-align: left;
+    padding: 2%;
+    height: 1000px;
+}
+
+footer {
+    width: 90%;
+    margin: auto;
+    height: 15%;
+    background-color: rgb(127, 255, 212);
+    border: 1px solid rgb(52, 170, 131);
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+
+}
