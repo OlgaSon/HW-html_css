@@ -1,0 +1,328 @@
+.page {
+    width: 1920px;
+    background: #F9F9F9;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #727272;
+}
+
+.header2 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.header3 {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 19px;
+    margin: 0;
+}
+
+.text {
+    margin: 0;
+    line-height: 15px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.first-screen {
+    background: #EEEFF1;
+    padding: 0 405px;
+    height: 700px;
+}
+
+.menu__logo {
+    float: left;
+    margin: 57px 0 140px;
+    width: 96px;
+    height: 60px;
+}
+
+.nav {
+    float: right;
+    margin-top: 79px;
+}
+
+.nav__link {
+    margin: 0 21px;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.nav__link:hover {
+    color: #34547A;
+}
+
+.menu::after,
+.first-screen::after {
+    content: "";
+    /*height: 0px;*/
+    display: block;
+    clear: both;
+}
+
+.welcome__image {
+    float: left;
+    margin: 21px 131px 188px 82px;
+}
+
+.welcome__header {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 45px;
+    color: #000000;
+    margin: 0 auto 60px;
+}
+
+.welcome__text {
+    margin-bottom: 85px;
+    height: 67px;
+    line-height: 26px;
+    /*в figme line-height считает только между строк (без первой и последней. В ccs - каждой строке. Как правильно оформлять чтобы и межстрочный интервал был, и лишних отступов/увеличения размера не было?)*/
+}
+
+.welcome__button {
+    text-decoration: none;
+    width: 225px;
+    height: 65px;
+    background: #34547A;
+    padding: 25px 41px;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin-top: 55px;
+}
+
+
+.about {
+    width: 540px;
+    margin: 119px auto 100px;
+}
+
+.about__header {
+    margin-bottom: 50px;
+}
+
+.about__text {
+    height: 67px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.numbers {
+    background: #34547A;
+    padding: 103px 375px 147px 405px;
+}
+
+.numbers__item {
+    color: #FFFFFF;
+    float: left;
+    width: 141px;
+    height: 50px;
+    margin-right: 49px;
+}
+
+.numbers__image {
+    float: left;
+    margin-right: 20px;
+    margin-top: -3px;
+}
+
+.numbers__quantity {
+    margin: 0px 0px 10px 0;
+}
+
+
+.skills {
+    padding: 102px 384px 101px 386px;
+}
+
+.skills__image {
+    float: right;
+}
+
+.skills__list {
+    /*text-align: left;*/
+    margin: 102px 0 91px 0;
+}
+
+.skills__header {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.skills__progress {
+    /*как задать свой цвет прогресса?*/
+    width: 445px;
+    height: 4px;
+    background: #34547A;
+    transform: rotate(-0.06deg);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.video {
+    background-color: #EEEFF1;
+    height: 1004px;
+}
+
+.video__header {
+    margin: 0px auto 50px;
+    padding-top: 100px;
+}
+
+.video__text {
+    margin: auto;
+    text-align: center;
+    width: 540px;
+    height: 67px;
+    line-height: 26px;
+}
+
+.video__video {
+    margin: 57px 405px 100px;
+    background-image: url(/hw4-bonus_page1/back_css1.jpg);
+    background-size: cover;
+}
+
+.project {
+    width: 1920px;
+}
+
+.project__link {
+    width: 480px;
+    height: 480px;
+    /* position: relative;*/
+    float: left;
+}
+
+.project__link_img1 {
+    background-image: url(./images/Project1.png);
+}
+
+.project__link_img2 {
+    background-image: url(./images/Project2.png);
+}
+
+.project__image {
+    /*position: absolute;
+    left: 0;
+    top: 0;*/
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(52, 84, 122, 0.8);
+}
+
+.project__image:hover {
+    opacity: 0.8;
+}
+
+.project__view {
+    /* position: absolute;*/
+    margin: 190px;
+}
+
+.clients {
+    clear: both;
+    padding: 72px 375px 0 405px;
+}
+
+.clients__logo {
+    float: left;
+    width: 255px;
+    height: 120px;
+    margin: 0 30px 100px 0;
+}
+
+
+.form {
+    clear: both;
+    height: 762px;
+    background-color: #EEEFF1;
+}
+
+.form__header {
+    padding-top: 98px;
+}
+
+.form__text {
+    margin: 50px auto 67px;
+    text-align: center;
+    width: 540px;
+    height: 67px;
+    line-height: 26px;
+}
+
+
+.form__data {
+    width: 540px;
+    height: 245px;
+    text-align: center;
+    margin: auto;
+}
+
+.form__data>*,
+.form__field>* {
+    border: 0;
+}
+
+
+.form__field {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form__input {
+    width: 235px;
+    height: 15px;
+    padding: 17px 0 18px 20px;
+}
+
+.form__message {
+    width: 520px;
+    height: 140px;
+    padding: 17px 0 18px 20px;
+    margin-top: 20px;
+}
+
+.footer {
+    height: 151px;
+    background-color: #34547A;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__contacts {
+    margin: 50px 0 50px 406px;
+}
+
+.footer__links {
+    margin: 55px 389px 55px 0;
+
+}
+
+.footer__SM {
+    margin-left: 22px;
+}
+
+.footer__copyright {
+    margin-top: 20px;
+    font-size: 13px;
+}
