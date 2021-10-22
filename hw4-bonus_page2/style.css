@@ -1,0 +1,60 @@
+html {
+    width: 1200px;
+    background-color: grey;
+}
+
+header,
+body {
+    background-position: center;
+}
+
+header {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm9EU75qk4t3rhJqswnO9aONYp_xCJhf7aza99-JLYpVAta1Mnfh-fTm-9rNTI5czqvOg&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    color: rgb(150, 100, 50);
+    padding: 200px;
+}
+
+button {
+    color: rgb(150, 100, 50);
+    background-color: rgb(150, 100, 50, 0.03);
+    border: 1px solid rgb(150, 100, 50);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+div {
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(150, 100, 50);
+    color: whitesmoke
+}
+
+#s-div {
+    background-color: rgb(255, 250, 245);
+    color: rgb(150, 100, 50)
+}
+
+div.flex-item:nth-child(2n+1) {
+    background-color: rgb(150, 100, 50);
+    color: whitesmoke
+}
+
+div.flex-item:nth-child(2n) {
+    background-color: whitesmoke;
+    color: rgb(150, 100, 50)
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0;
+}
+
+.flex-item {
+    display: flex;
+    text-align: left;
+    padding: 30px;
+}
