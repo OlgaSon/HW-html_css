@@ -11,7 +11,6 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 69px;
-
 }
 
 .header__logo {
@@ -178,7 +177,6 @@
     letter-spacing: 0.01em;
     color: #000C2D;
     margin-bottom: 24px;
-
 }
 
 .oportunities__link {
@@ -190,3 +188,39 @@
     color: #2F70FE;
 }
 
+.footer {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: 42px repeat(5, 28px) 57px 28px;
+    height: 247px;
+    background: #000000;
+    color: #FFFFFF;
+    padding: 89px 156px 61px 160px;
+    grid-column-gap: 130px;
+}
+
+.footer__header {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+}
+
+.footer__item {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    margin-bottom: 10px;
+    height: 18px;
+}
+
+.footer__item_copyright {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.footer__item_SM {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    margin-left: -32px;
+}
