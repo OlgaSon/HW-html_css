@@ -144,6 +144,7 @@
     line-height: 51px;
     letter-spacing: 0.02em;
     padding-bottom: 16px;
+    margin: 0;
 }
 
 .advantages__text {
@@ -152,3 +153,40 @@
     letter-spacing: 0.01em;
     color: #000C2D;
 }
+
+.oportunities {
+    height: 2403px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 124px;
+    row-gap: 145px;
+    margin: 100px 230px 80px 255px;
+    text-align: left;
+}
+
+.oportunities__header {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+    color: #181818;
+    margin-bottom: 24px;
+}
+
+.oportunities__text {
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    color: #000C2D;
+    margin-bottom: 24px;
+
+}
+
+.oportunities__link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #2F70FE;
+}
+
