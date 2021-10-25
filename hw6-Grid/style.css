@@ -1,0 +1,154 @@
+.page {
+    width: 1440px;
+    border: 1px dashed olive;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 69px;
+
+}
+
+.header__logo {
+    margin: 26px 0;
+}
+
+.top-nav {
+    margin: 18px 60px;
+}
+
+.top-nav__link {
+    margin-left: 16px;
+    margin-right: 16px;
+    text-decoration: none;
+
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    color: #000C2D;
+}
+
+
+.demo {
+    padding: 12px 23px;
+    color: #2F70FE;
+    width: 136px;
+    height: 44px;
+    border: 1px solid #2F70FE;
+    box-sizing: border-box;
+}
+
+.button {
+    border: none;
+    background-color: white;
+}
+
+.introdaction {
+    height: 469px;
+    background: #2F70FE;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.introdaction__content {
+    padding: 114px 410px;
+}
+
+.introdaction__header {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    height: 130px;
+    margin: 0;
+}
+
+.introdaction__text {
+    font-size: 16px;
+    line-height: 30px;
+    height: 60px;
+    margin: 7px 7px 33px;
+}
+
+.introdaction__button {
+    width: 162px;
+    height: 52px;
+    background: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    border: none;
+}
+
+.gradient {
+    height: 65px;
+    background: linear-gradient(to right bottom, #2F70FE 50%, rgba(0, 255, 133, 0.08) 51%);
+}
+
+.gradient__img-left {
+    position: absolute;
+    margin-top: -149px;
+    margin-left: 90px;
+    mix-blend-mode: luminosity;
+}
+
+.gradient__img-right {
+    position: absolute;
+    margin-top: -242px;
+    margin-left: 972px;
+    mix-blend-mode: luminosity;
+}
+
+.frame-left {
+    position: absolute;
+    margin-top: 329px;
+    margin-left: 98px;
+}
+
+.frame-right {
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 1246px;
+}
+
+.slogan {
+    height: 561px;
+    background: rgba(0, 255, 133, 0.08);
+    /*opacity: 0.6; - зачем она в макете?*/
+}
+
+
+.advantages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 56px;
+    grid-row-gap: 24px;
+    padding: 80px 308px 148px;
+    text-align: center;
+    color: #000000;
+}
+
+.advantages__header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 51px;
+    letter-spacing: 0.02em;
+    padding-bottom: 16px;
+}
+
+.advantages__text {
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    color: #000C2D;
+}
